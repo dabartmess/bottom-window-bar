@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <schema id="org.gnome.shell.extensions.bottom-window-bar" path="/org/gnome/shell/extensions/bottom-window-bar/">
+    <key name="background-color" type="s">
+      <default>'#263244'</default>
+      <summary>Bottom bar background color</summary>
+      <description>A CSS hexadecimal color such as #263244 or #112233CC.</description>
+    </key>
+    <key name="group-windows" type="b">
+      <default>false</default>
+      <summary>Group windows by application</summary>
+    </key>
+    <key name="show-bar" type="b">
+      <default>true</default>
+      <summary>Display the window bar</summary>
+    </key>
+    <key name="auto-hide" type="b">
+      <default>false</default>
+      <summary>Automatically hide the bar until the pointer reaches the bottom edge</summary>
+    </key>
+    <key name="all-workspaces" type="b">
+      <default>false</default>
+      <summary>Show windows from all workspaces</summary>
+    </key>
+    <key name="icon-size" type="i">
+      <default>24</default>
+      <range min="12" max="64"/>
+      <summary>Application icon size in pixels</summary>
+    </key>
+    <key name="text-size" type="i">
+      <default>9</default>
+      <range min="7" max="20"/>
+      <summary>Window title size in points</summary>
+    </key>
+    <key name="auto-dock-clearance" type="b">
+      <default>true</default>
+      <summary>Automatically use the width of side docks as minimum clearance</summary>
+    </key>
+    <key name="left-clearance" type="i">
+      <default>0</default>
+      <range min="0" max="400"/>
+      <summary>Manual minimum left inset when automatic dock detection is insufficient</summary>
+    </key>
+    <key name="right-clearance" type="i">
+      <default>0</default>
+      <range min="0" max="400"/>
+      <summary>Manual minimum right inset when automatic dock detection is insufficient</summary>
+    </key>
+    <key name="bottom-offset" type="i">
+      <default>16</default>
+      <range min="0" max="120"/>
+      <summary>Bottom-edge gap in pixels to avoid scrollbar overlap</summary>
+    </key>
+  </schema>
+</schemalist>

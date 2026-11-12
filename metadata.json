@@ -1,0 +1,13 @@
+{
+  "uuid": "bottom-window-bar@dabartmess.github.com",
+  "name": "Bottom Window Bar",
+  "description": "Bottom window list with dock avoidance, adjustable bottom offset, context-menu window actions, auto-hide, grouping and workspace filtering.",
+  "shell-version": [
+    "49",
+    "50",
+    "51"
+  ],
+  "settings-schema": "org.gnome.shell.extensions.bottom-window-bar",
+  "version": 11,
+  "url": "https://github.com/dabartmess/bottom-window-bar"
+}
